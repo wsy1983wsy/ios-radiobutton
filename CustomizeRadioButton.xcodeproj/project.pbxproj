@@ -14,6 +14,12 @@
 		3454000A174DC0DB00885DAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34540009174DC0DB00885DAE /* Default-568h@2x.png */; };
 		3454000D174DC0DB00885DAE /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3454000C174DC0DB00885DAE /* DJViewController.m */; };
 		34540010174DC0DB00885DAE /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3454000E174DC0DB00885DAE /* DJViewController.xib */; };
+		34540018174DC13200885DAE /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 34540016174DC13200885DAE /* radio_checked.png */; };
+		34540019174DC13200885DAE /* radio_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 34540017174DC13200885DAE /* radio_normal.png */; };
+		3454001C174DC17400885DAE /* DJRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3454001B174DC17400885DAE /* DJRadioButton.m */; };
+		3454001F174DC72000885DAE /* DJRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3454001E174DC72000885DAE /* DJRadioButtonGroup.m */; };
+		34540022174DEE0D00885DAE /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 34540020174DEE0D00885DAE /* RadioButton-Selected.png */; };
+		34540023174DEE0D00885DAE /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 34540021174DEE0D00885DAE /* RadioButton-Unselected.png */; };
 		3454FFF4174DC0DB00885DAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454FFF3174DC0DB00885DAE /* UIKit.framework */; };
 		3454FFF6174DC0DB00885DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454FFF5174DC0DB00885DAE /* Foundation.framework */; };
 		3454FFF8174DC0DB00885DAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3454FFF7174DC0DB00885DAE /* CoreGraphics.framework */; };
@@ -30,6 +36,14 @@
 		3454000B174DC0DB00885DAE /* DJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
 		3454000C174DC0DB00885DAE /* DJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
 		3454000F174DC0DB00885DAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DJViewController.xib; sourceTree = "<group>"; };
+		34540016174DC13200885DAE /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		34540017174DC13200885DAE /* radio_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_normal.png; sourceTree = "<group>"; };
+		3454001A174DC17400885DAE /* DJRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRadioButton.h; sourceTree = "<group>"; };
+		3454001B174DC17400885DAE /* DJRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRadioButton.m; sourceTree = "<group>"; };
+		3454001D174DC72000885DAE /* DJRadioButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRadioButtonGroup.h; sourceTree = "<group>"; };
+		3454001E174DC72000885DAE /* DJRadioButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRadioButtonGroup.m; sourceTree = "<group>"; };
+		34540020174DEE0D00885DAE /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		34540021174DEE0D00885DAE /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
 		3454FFF0174DC0DB00885DAE /* CustomizeRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3454FFF3174DC0DB00885DAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3454FFF5174DC0DB00885DAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,12 +97,20 @@
 		3454FFF9174DC0DB00885DAE /* CustomizeRadioButton */ = {
 			isa = PBXGroup;
 			children = (
+				34540020174DEE0D00885DAE /* RadioButton-Selected.png */,
+				34540021174DEE0D00885DAE /* RadioButton-Unselected.png */,
+				34540016174DC13200885DAE /* radio_checked.png */,
+				34540017174DC13200885DAE /* radio_normal.png */,
 				34540002174DC0DB00885DAE /* DJAppDelegate.h */,
 				34540003174DC0DB00885DAE /* DJAppDelegate.m */,
 				3454000B174DC0DB00885DAE /* DJViewController.h */,
 				3454000C174DC0DB00885DAE /* DJViewController.m */,
 				3454000E174DC0DB00885DAE /* DJViewController.xib */,
 				3454FFFA174DC0DB00885DAE /* Supporting Files */,
+				3454001A174DC17400885DAE /* DJRadioButton.h */,
+				3454001B174DC17400885DAE /* DJRadioButton.m */,
+				3454001D174DC72000885DAE /* DJRadioButtonGroup.h */,
+				3454001E174DC72000885DAE /* DJRadioButtonGroup.m */,
 			);
 			path = CustomizeRadioButton;
 			sourceTree = "<group>";
@@ -164,6 +186,10 @@
 				34540008174DC0DB00885DAE /* Default@2x.png in Resources */,
 				3454000A174DC0DB00885DAE /* Default-568h@2x.png in Resources */,
 				34540010174DC0DB00885DAE /* DJViewController.xib in Resources */,
+				34540018174DC13200885DAE /* radio_checked.png in Resources */,
+				34540019174DC13200885DAE /* radio_normal.png in Resources */,
+				34540022174DEE0D00885DAE /* RadioButton-Selected.png in Resources */,
+				34540023174DEE0D00885DAE /* RadioButton-Unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +203,8 @@
 				34540000174DC0DB00885DAE /* main.m in Sources */,
 				34540004174DC0DB00885DAE /* DJAppDelegate.m in Sources */,
 				3454000D174DC0DB00885DAE /* DJViewController.m in Sources */,
+				3454001C174DC17400885DAE /* DJRadioButton.m in Sources */,
+				3454001F174DC72000885DAE /* DJRadioButtonGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
